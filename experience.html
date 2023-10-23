@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".\css\style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;700;800&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href=".\style.css">
+
+    <title>My Portfolio</title>
+
+    <style>
+        @font-face {
+            font-family: 'Open Sans Regular';
+            font-style: normal;
+            font-weight: 400;
+            src: url('chrome-extension://gkkdmjjodidppndkbkhhknakbeflbomf/fonts/open_sans/open-sans-v18-latin-regular.woff');
+        }
+    </style>
+    <style>
+        @font-face {
+            font-family: 'Open Sans Bold';
+            font-style: normal;
+            font-weight: 800;
+            src: url('chrome-extension://gkkdmjjodidppndkbkhhknakbeflbomf/fonts/open_sans/open-sans-v18-latin-800.woff');
+        }
+    </style>
+</head>
+
+<body>
+    <div class="body fixed-top">
+        <nav class="menu navbar   navbar-expand-md navbar-light rounded" aria-label="Eleventh navbar example">
+            <div class="container-fluid">
+                <img src=".\assets\pic.png" class="header ms-lg-3 mt-lg-1 ms-3" height="55" alt="">
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false"
+                    aria-label="Toggle navigation"><img src="./assets/menu.png" style="height: 30px;" alt=""></button>
+
+                <div class="navbar-collapse nav-underline collapse" id="navbarsExample09" style="">
+                    <ul class="navbar-nav ms-auto me-4 mb-2 mb-lg-0 fw-bold">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="./skills.html">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark active" href="./experience.html">Work Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="./projects.html">Projects</a>
+                        </li>
+                        <li class="nav-item  dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" id="dropdown09"
+                                data-bs-toggle="dropdown" aria-expanded="false">Connect</a>
+                            <div class="social dropdown-menu text-center me-lg-3" aria-labelledby="dropdown09">
+                                <a class="dropdown-item" target="_blank" href="https://www.linkedin.com/in/iharishsh/">
+                                    <p>LinkedIn</p>
+                                </a>
+                                <a class="dropdown-item" target="_blank" href="mailto:iharishsh@gmail.com">
+                                    <p>Mail me!</p>
+                                </a>
+                                <a class="dropdown-item" target="_blank" href="https://zaap.bio/iharishsh">
+                                    <p>Check out me!</p>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div id="home" class="body section">
+        <div class="px-2 py-3 my-3 text-center">
+            <h1 class="display-5 fw-bold text-body-emphasis">Work Experience</h1>
+            <div class="d-flex flex-column flex-md-row p-4 gap-4 py-md-5 align-items-center justify-content-center">
+                <div class="list-group">
+                    <a href="https://www.sundaramfinance.in/" target="_blank"
+                        class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+                        <img src="./assets/sftransparentlogo.ico" alt="twbs" width="32" height="32"
+                            class="flex-shrink-0">
+                        <div class="d-flex gap-2 w-100 justify-content-between">
+                            <div>
+                                <h6 class="mb-0">Developer - Aparjitha - Sundaram Finance - (Sundaram Direct)</h6>
+                                <ul>
+                                    <li class="mb-0 text-start opacity-75">Developed and maintained web applications
+                                        using HTML, CSS, and ReactJS.</li>
+                                    <li class="mb-0 text-start opacity-75">Utilized JavaScript, Tailwind CSS, and
+                                        Bootstrap CSS to enhance user interfaces.</li>
+                                    <li class="mb-0 text-start opacity-75">Implemented backend functionality using
+                                        Node.js and Express.js, with MySQL as the database.</li>
+                                    <li class="mb-0 text-start opacity-75">Contributed to mobile app development using
+                                        React Native for cross-platform applications.</li>
+                                    <li class="mb-0 text-start opacity-75">Involved in app development using Java
+                                        (Spring Tool) and interfacing with Oracle database.</li>
+                                </ul>
+                            </div>
+                            <small class="opacity-50 text-nowrap">Nov 2022 - Present</small>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="py-1 my-1">
+        <p class="text-center text-dark fw-normal">© 2023 Harish</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
